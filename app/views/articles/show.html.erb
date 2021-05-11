@@ -1,4 +1,11 @@
-<h1> <%= @article.title %> </h1>
+<h1> 
+  <%= @article.title %> 
+  <small>
+    <%= link_to edit_article_path(@article) do %>
+      <i class="fa fa-pencil"></i>
+    <% end %>
+  </small>
+</h1>
 <div class="article-details">
   <p> <%= @article.content %> </p>
 </div>
