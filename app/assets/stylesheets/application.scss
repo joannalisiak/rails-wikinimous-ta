@@ -8,9 +8,9 @@ p, h1, h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 28px;
-}
+// h1 {
+//   font-size: 28px;
+// }
 
 h6 {
   font-weight: normal;
@@ -32,3 +32,9 @@ nav {
     }
   }
 } 
+
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 24px;
+}

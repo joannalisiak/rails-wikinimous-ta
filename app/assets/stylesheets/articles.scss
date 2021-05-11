@@ -3,9 +3,14 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .article-heading {
-  padding: 0 180px;
-  margin: 24px 0;
+  margin-bottom: 24px;
   p {
     margin-top: 6px;
   }
+}
+
+.article-details {
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
