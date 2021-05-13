@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title><%= content_for?(:title) ? yield(:title) : "Wikinimous" %></title>
     <title>RailsWikinimousTa</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -18,6 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
+          <%#= render "flash" %>
           <%= yield %>
         </div>
       </div>
